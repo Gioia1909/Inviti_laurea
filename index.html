@@ -3,32 +3,44 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Laurea Arianna, Debora, Gioia, Luigi</title>
+    <title>&lt;/Laurea&gt; &lt;Festa/&gt;</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="container">
-        <h1>🎓 Festeggiamo la Laurea!</h1>
-        <p class="names"><strong>Arianna</strong>, <strong>Debora</strong>, <strong>Gioia</strong> & <strong>Luigi</strong></p>
-        <p class="info">📅 <strong>29 luglio 2025</strong> – ore <strong>21:00</strong></p>
-        <p class="info">📍 <strong>Tenuta Ippocrate (AV)</strong></p>
-        <p class="dresscode">👗 Dress code: elegante ma senza troppo sbatti (niente tacchi!)</p>
+    <div class="main-card">
+        <h1>&lt;/Laurea&gt; &lt;Festa/&gt;</h1>
+        <p class="subtitle">Unitevi a noi per brindare tra vigne,<br>bit e buon vino!</p>
+
+        <div class="code-box">
+<pre><code class="info">
+#Info evento:
+location = Tenuta Ippocrate;
+data = Martedì 29 Luglio;
+ora = startParty(21:00);
+dressCode = (Casual || elegante con accento nerd) && (Lascia i tacchi a casa);
+</code></pre>
+        </div>
+
+        <ul class="activities">
+            <li>🍷 Degustazione vini artigianali</li>
+            <li>🍷 Cibo da Veri Buongustai</li>
+            <li>🍷 Musica, luci e tanto umorismo da developer</li>
+            <li>🍷 Un angolo ‘debug your future’ con foto e brindisi</li>
+        </ul>
+
+        <div class="code-box">
+<pre><code class="rsvp">
+#RSVP entro il 10 luglio:
+https://wa.me/393297415008?text=Confermo%20la%20mia%20presenza%20alla%20festa%20di%20laurea%20🎓%20del%2029%20luglio%202025!
+</code></pre>
+        </div>
 
         <a class="rsvp-button" href="https://wa.me/393297415008?text=Confermo%20la%20mia%20presenza%20alla%20festa%20di%20laurea%20🎓%20del%2029%20luglio%202025!" target="_blank">
             ✅ Conferma la tua presenza su WhatsApp
         </a>
 
-        <div class="memes">
-            <pre><code>if (youLoveBinary) {{
-    beMy(1);
-}} else {{
-    return 0;
-}}</code></pre>
-
-            <p class="meme">🤓 Vuoi essere l’uno del mio codice binario?</p>
-            <p class="meme">💬 Se non mi vuoi scrivere su WhatsApp, passa a GitHub!</p>
-            <p class="meme">⚡ Trasformiamo il campo elettrico in elettromagnetico.</p>
-        </div>
+        <p class="note">Oppure scrivici su GitHub</p>
+        <p class="footer">Evento organizzato da 4 ingegneri informatici<br><strong>Arianna, Debora, Gioia, Luigi</strong></p>
     </div>
 </body>
 </html>

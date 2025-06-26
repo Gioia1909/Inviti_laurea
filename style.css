@@ -1,32 +1,78 @@
 body {
-    background-color: #0d1117;
-    color: #c9d1d9;
+    background-color: #f9f9f9;
     font-family: 'Courier New', monospace;
     margin: 0;
-    padding: 20px;
-    line-height: 1.6;
-}
-.container {
-    max-width: 600px;
-    margin: auto;
-    background-color: #161b22;
     padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0,255,100,0.1);
+    color: #222;
 }
+
+.main-card {
+    max-width: 650px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
 h1 {
-    color: #58a6ff;
-    text-align: center;
-}
-.names {
-    font-size: 1.5em;
-    text-align: center;
-    margin-bottom: 20px;
-}
-.info, .dresscode {
+    font-family: monospace;
+    font-size: 2em;
+    color: #4B0082;
     text-align: center;
     margin-bottom: 10px;
 }
+
+.subtitle {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 25px;
+    color: #444;
+}
+
+.code-box {
+    background: #f0f0f0;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 0;
+    font-size: 1em;
+}
+
+.info {
+    color: #228B22;
+}
+
+.rsvp {
+    color: #228B22;
+}
+.rsvp .string {
+    color: #1E90FF;
+}
+
+.activities {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.05em;
+    margin-bottom: 25px;
+}
+
+.activities li {
+    margin: 10px 0;
+}
+
+.note {
+    text-align: center;
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1em;
+    color: #333;
+}
+
 .rsvp-button {
     display: block;
     width: fit-content;
@@ -41,22 +87,4 @@ h1 {
 }
 .rsvp-button:hover {
     background-color: #1f6feb;
-}
-.memes {
-    margin-top: 30px;
-    border-top: 1px solid #30363d;
-    padding-top: 20px;
-}
-.meme {
-    text-align: center;
-    margin-top: 10px;
-}
-code {
-    background-color: #0d1117;
-    display: block;
-    padding: 10px;
-    border: 1px solid #30363d;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    color: #7ee787;
 }
